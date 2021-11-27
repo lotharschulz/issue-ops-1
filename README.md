@@ -28,7 +28,7 @@ If we had a way to automate all steps by just creating an issue - the ssh certif
 
 ### :lock: Bonus encryption / decryption IssueOps workflow :lock:
 
-In a first iteration, we experimented with generating ssh keys from scratch and send them encrypted to the user. We abandoned this idea for signing already uploaded ssh keys. A leftover from our experiments is an [IssueOps encryption workflow](.github/issue-ops-encrypt-content.yaml) that can be triggered by using the `Encrypt and share content` [issue template](.github/ISSUE_TEMPLATE/encrypt-content.md) and encrypts any content in the issue description with the public ssh keys of the specified recipient (with a comment how to decrypt):
+In a first iteration, we experimented with generating ssh keys from scratch and send them encrypted to the user. We abandoned this idea for signing already uploaded ssh keys. A leftover from our experiments is an [IssueOps encryption workflow](.github/workflows/issue-ops-encrypt-content.yaml) that can be triggered by using the `Encrypt and share content` [issue template](.github/ISSUE_TEMPLATE/encrypt-content.md) and encrypts any content in the issue description with the public ssh keys of the specified recipient (with a comment how to decrypt):
 
 ![image](https://user-images.githubusercontent.com/1872314/93903714-50bf6c00-fcf9-11ea-85e1-a793144aa384.png)
 
