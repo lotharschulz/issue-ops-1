@@ -20,7 +20,7 @@ If we had a way to automate all steps by just creating an issue - the ssh certif
 
 3. [Set](https://docs.github.com/en/actions/reference/encrypted-secrets) your CA private key as `SSH_CERTIFICATE`secret
 
-4. Create an issue with the `Sign ssh key` [issue template](.github/ISSUE_TEMPLATE/sign-ssh-key.md) which will trigger the [issue ops sign ssh key workflow](.github/issue-ops-sign-ssh-key.yaml)
+4. Create an issue with the `Sign ssh key` [issue template](.github/ISSUE_TEMPLATE/sign-ssh-key.md) which will trigger the [issue ops sign ssh key workflow](.github/workflows/issue-ops-sign-ssh-key.yaml)
 
 ![image](https://user-images.githubusercontent.com/1872314/93902210-9844f880-fcf7-11ea-9723-3e0d57622b1d.png)
 
